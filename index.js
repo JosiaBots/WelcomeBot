@@ -15,7 +15,7 @@ app.get("/", (request, response) => {
       }, 280000);
 
 client.on("ready", () => {
-    console.log('index Ready!');
+    console.log('Index Ready!');
 })
 
 client.login(config.token);
