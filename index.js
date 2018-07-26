@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const express = require('express');
 const app = express();
 const http = require('http');
-const config = ("./src/config.json")
+const config = require("./src/config.json")
 
 app.get("/", (request, response) => {
     console.log(Date.now() + " Ping Received");
