@@ -13,6 +13,7 @@ client.on("guildMemberAdd", (member) =>  {
   console.log(`${member.user} Joined`);
 });
 
+
  client.on("guildMemberRemove", (member) => {
    const membertag = member.user.tag
    member.guild.channels.find("name", "general").send(`${membertag} has left the server!`);
