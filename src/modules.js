@@ -4,6 +4,7 @@ const config = require("./config.json")
 const express = require('express');
 const app = express();
 
-const reboot = require("./welcome.js");
+//Modules
+const welcome = require("./welcome.js");
 
 client.login(config.token);
