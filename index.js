@@ -4,6 +4,7 @@ const express = require('express');
 const app = express();
 const http = require('http');
 const config = require("./src/config.json")
+const modules = require("./src/modules.js");
 
 app.get("/", (request, response) => {
     console.log(Date.now() + " Ping Received");
